@@ -120,7 +120,10 @@ nav:
       - Deployment: sdlc/deployment/index.md  
       - Maintenance: sdlc/maintenance/index.md  
       - End-User Documentation: sdlc/end-user/index.md  
+  - API First:   
+      - Introduction: api-first/index.md  
+      - Development Life Cycle: api-first/development/index.md
   - OpenAPI Specification: oas/index.md  
-  - Code: code/index.md  
+  - Code Samples: code/index.md  
   - Changelog: changelog/index.md
 
