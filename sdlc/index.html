@@ -666,23 +666,44 @@
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#api_development_cycle" class="md-nav__link">
+    <nav class="md-nav" aria-label="Overview">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sdlc_details" class="md-nav__link">
     <span class="md-ellipsis">
-      API Development Cycle
+      SDLC Details
     </span>
   </a>
   
 </li>
+        
+      </ul>
+    </nav>
+  
+</li>
       
         <li class="md-nav__item">
-  <a href="#api_first" class="md-nav__link">
+  <a href="#the_api_first_approach" class="md-nav__link">
     <span class="md-ellipsis">
-      API First
+      The API First Approach
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="The API First Approach">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a_closer_look" class="md-nav__link">
+    <span class="md-ellipsis">
+      A Closer Look
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -703,8 +724,150 @@
 
 <h1 id="software_development_life_cycle">Software Development Life Cycle<a class="headerlink" href="#software_development_life_cycle" title="Permanent link">#</a></h1>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">#</a></h2>
-<h2 id="api_development_cycle">API Development Cycle<a class="headerlink" href="#api_development_cycle" title="Permanent link">#</a></h2>
-<h2 id="api_first">API First<a class="headerlink" href="#api_first" title="Permanent link">#</a></h2>
+<p><strong>The Software Development Life Cycle (SDLC) is a framework that defines the stages involved in the development and maintenance of software applications</strong>. Each phase produces specific outputs or documents, often guided or supplemented by technical writers. Below is a breakdown of each SDLC step, its process, and examples of associated technical writing documents.  </p>
+<p><strong>The stages of the SDLC</strong> are the following:  </p>
+<ol>
+<li>Planning/Requirements Gathering  </li>
+<li>System Design  </li>
+<li>Implementation/Coding  </li>
+<li>Testing  </li>
+<li>Deployment  </li>
+<li>Maintenance  </li>
+<li>End-user Training and Documentation    </li>
+</ol>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Each SDLC phase requires its own set of documentation, and technical writers play an essential role in ensuring the clarity and accuracy of these documents, making it easier for teams to collaborate and for users to interact with the system.  </p>
+</div>
+<h3 id="sdlc_details">SDLC Details<a class="headerlink" href="#sdlc_details" title="Permanent link">#</a></h3>
+<p>The following table disclose each stage with more details:  </p>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
+<th>Description</th>
+<th>Technical Writer</th>
+<th>Documents</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Planning/Requirements Gathering</strong></td>
+<td>In this phase, the project's goals, objectives, scope, and potential risks are identified. Stakeholders and teams gather functional and non-functional requirements for the system.</td>
+<td>Technical writers collaborate with stakeholders, engineers, and product owners to document the business requirements, technical specifications, and scope of work.</td>
+<td><em>Requirements Specification Document (RSD)</em>: This outlines the system's functional and non-functional requirements.<br><br>Example: A Business Requirements Document (BRD) that details what the end-users expect from the system.</td>
+</tr>
+<tr>
+<td><strong>System Design</strong></td>
+<td>Based on the requirements, architects and developers create high-level and detailed designs of the system. This includes the architecture, database design, and user interface mockups.</td>
+<td>Writers document the design specifications and data models to ensure developers and stakeholders have clear guidance on implementation.</td>
+<td><em>System Design Document (SDD)</em>: Describes system components, interfaces, data models, and architectural diagrams.<br><br>Example: A Data Flow Diagram (DFD) explaining how data moves within the system and a **System Architecture Document that describes server infrastructure and client-server communication.</td>
+</tr>
+<tr>
+<td><strong>Implementation/Coding</strong></td>
+<td>The actual development of the software takes place. Developers write code, build features, and conduct initial unit testing.</td>
+<td>Writers create developer-focused documentation, such as API references or code integration guides, and collaborate on in-line code comments.</td>
+<td><em>API Documentation</em>: Details how to use and integrate with the system’s APIs.<br><br>Example: A REST API Guide for integrating an external payment service with your system, detailing endpoints, request/response formats, and authentication.</td>
+</tr>
+<tr>
+<td><strong>Testing</strong></td>
+<td>The system undergoes various forms of testing, such as unit, integration, system, and acceptance testing, to identify bugs and ensure all requirements are met.</td>
+<td>Writers help create testing plans and document known issues or test results.</td>
+<td><em>Test Case Document</em>: Defines how to verify that each function or feature meets the requirements.<br><br>Example: A Test Plan for ensuring that the user authentication feature works correctly, detailing the different test cases, expected outcomes, and pass/fail criteria.</td>
+</tr>
+<tr>
+<td><strong>Deployment</strong></td>
+<td>The software is delivered to the production environment, and it is made available to end-users.</td>
+<td>Writers assist in creating deployment guides and documenting configuration settings, upgrade paths, and rollback procedures.</td>
+<td><em>Deployment Guide</em>: Instructions on how to install, configure, and deploy the software to the production environment.<br><br>Example: A Cloud Deployment Manual for installing the application on AWS, covering steps for server setup, load balancing, and environment configuration.</td>
+</tr>
+<tr>
+<td><strong>Maintenance</strong></td>
+<td>After deployment, the system is monitored, and any issues are addressed with patches or updates. New features may be added in future iterations.</td>
+<td>Writers help with user guides, troubleshooting documentation, and release notes for future versions.</td>
+<td><em>Release Notes</em>: Summarize new features, bug fixes, and known issues for each new version.<br><br>Example: A Release Notes document for version 1.2.0, listing new features, fixed bugs, and deprecated functions.</td>
+</tr>
+<tr>
+<td><strong>End-User Training &amp; Documentation</strong></td>
+<td>As part of the rollout, end-users are trained on the new system through tutorials or training sessions.</td>
+<td>Writers create user guides, FAQs, video tutorials, and other materials to facilitate learning.</td>
+<td><em>User Manual</em>: Guides users on how to operate the system.<br><br>Example: A Getting Started Guide for an e-commerce platform that explains how users can create accounts, browse products, and complete purchases.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="the_api_first_approach">The API First Approach<a class="headerlink" href="#the_api_first_approach" title="Permanent link">#</a></h2>
+<p><strong>The API First approach places the design and specification of an API at the forefront of the development process</strong>. Instead of creating APIs as an afterthought to meet the needs of other parts of an application, the API is treated as a product from the beginning, guiding the entire software development lifecycle (SDLC). This ensures that the API is well-thought-out, meets the needs of its consumers, and evolves in a structured manner.   </p>
+<p>By creating a clear and detailed OpenAPI specification early on, developers and stakeholders can work from a shared understanding, reducing misunderstandings and improving collaboration.</p>
+<p><strong>The SDLC under the API First approach involves several key phases</strong> as listed below:   </p>
+<ol>
+<li>Planning - where business goals and API requirements are defined.  </li>
+<li>Design - where the API is described using a formal OpenAPI spec.  </li>
+<li>Contract finalization - where the API specification becomes a binding agreement between developers and consumers. Development proceeds based on this specification, ensuring that the implementation aligns with what has been agreed upon.  </li>
+<li>Testing and quality assurance - Test are performed before the API is deployed and monitored in production.   </li>
+</ol>
+<p><strong>The API is continuously improved post-release</strong>, with an emphasis on maintaining documentation, monitoring performance, and supporting versioning as needed.  </p>
+<h3 id="a_closer_look">A Closer Look<a class="headerlink" href="#a_closer_look" title="Permanent link">#</a></h3>
+<p>The following table provides a summarized view of the "API First" development cycle:    </p>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
+<th>Goal</th>
+<th>Steps</th>
+<th>Deliverables</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Planning and Ideation</strong></td>
+<td>Identify business requirements and the purpose of the API.</td>
+<td><ol><li>Meet with stakeholders to define use cases and gather requirements.</li><li>Identify the target audience (internal teams, partners, or external developers).</li><li>Draft initial API requirements, focusing on core features.</li></ol></td>
+<td><ul><li>High-level API requirements.</li><li>Use case definitions.</li><ol></td>
+</tr>
+<tr>
+<td><strong>API Design (OpenAPI Specification)</strong></td>
+<td>Design the API using the OpenAPI specification before any development starts.</td>
+<td><ol><li>Create an OpenAPI spec (YAML or JSON) to define endpoints, methods (e.g., <code>GET</code>, <code>POST</code>), request parameters, and response formats.</li><li>Collaborate with stakeholders to validate the API contract.</li><li>Iterate and refine the design based on feedback from consumers.</li><ol></td>
+<td><ol><li>OpenAPI spec (v1.0) describing all endpoints, data models, and security requirements.</li><li>Mock server or documentation preview (e.g., using Swagger UI) for consumer feedback.</li></ol></td>
+</tr>
+<tr>
+<td><strong>API Contract Finalization</strong></td>
+<td>Establish the API contract as a binding agreement between the API provider and consumers.</td>
+<td><ol><li>Share the OpenAPI spec with consumers for early integration testing.</li><li>Freeze the API contract once feedback is incorporated.</li></ul></td>
+<td><ul><li>Finalized API contract with stakeholder approval.</li><li>Mock server for developers to simulate interactions.</li><ul></td>
+</tr>
+<tr>
+<td><strong>Development</strong></td>
+<td>Implement the API backend following the agreed API contract.</td>
+<td><ol><li>Generate server-side code using OpenAPI tools (e.g., Swagger Codegen).</li><li>Implement business logic and integrate it with data sources.</li><li>Conduct unit tests to ensure individual components work as expected.</li><li>Use mock servers for early testing of API consumers.</li></ol></td>
+<td><ul><li>Backend code implementation.</li><li>Unit test coverage.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Testing and Quality Assurance</strong></td>
+<td>Ensure the API meets functional and non-functional requirements.</td>
+<td><ol><li>Perform contract testing to verify the API adheres to the OpenAPI spec.</li><li>Conduct integration tests with real data and external services.</li><li>Perform security testing, including authentication and authorization.</li>Conduct performance testing (load, stress, etc.) to verify scalability.</li><ol></td>
+<td><ul><li>Test results (unit, integration, performance, and security).</li><li>Fixes and optimizations based on test outcomes.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Documentation and Developer Experience</strong></td>
+<td>Provide comprehensive and user-friendly API documentation.</td>
+<td><ol><li>Auto-generate interactive documentation from the OpenAPI spec using tools like <strong>Swagger UI</strong> or <strong>Redoc</strong>.</li><li>Include examples, usage guides, and response formats.</li><li>Publish SDKs and client libraries if applicable.</li></ul></td>
+<td><ul><li>Interactive API documentation.</li><li>API examples and usage guides.</li><li>Client SDKs (if applicable).</li></ul></td>
+</tr>
+<tr>
+<td><strong>Deployment</strong></td>
+<td>Release the API to a production environment.</td>
+<td><ol><li>Deploy the API to a staging environment for final acceptance testing.</li><li>Set up monitoring tools to track API performance and availability (e.g., Prometheus, Grafana).</li><li>Deploy the API to production, ensuring rollback strategies are in place.</li></ol></td>
+<td><ul><li>Production-ready API.</li><li>Monitoring dashboards.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Post-Release Monitoring and Maintenance</strong></td>
+<td>Continuously monitor and improve the API after release.</td>
+<td><ol><li>Monitor API usage, performance, and errors in real-time.</li><li>Apply patches and fixes to address any issues.</li><li>Gather feedback from API consumers and prioritize future improvements.</li><li>Plan for versioning and deprecate old versions as needed.</li></ol></td>
+<td><ul><li>Logs and performance metrics.</li><li>Bug fixes and feature enhancements.</li><li>API versioning strategy.</li></ul></td>
+</tr>
+</tbody>
+</table>
 
 
 
