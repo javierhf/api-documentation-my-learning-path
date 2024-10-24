@@ -110,7 +110,7 @@ markdown_extensions:
 # Page tree  
 
 nav:  
-  - Home: index.md  
+  - Home: index.md    
   - Software Development Life Cycle:
       - Introduction: sdlc/index.md
       - Planning and Requirements Gathering: sdlc/planning-requirements/index.md  

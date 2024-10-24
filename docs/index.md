@@ -1,22 +1,23 @@
 # API Documentation - My Learning Path
 
-## Presentation    
+## What Is This All About?
 
 After starting my Python learning journey and being a senior technical writer, API documentation initially seemed like the next step. At first, I dreamt of it as a distant and mysterious land, far off. Now, it has become an exciting and achievable area of knowledge and practice.
 
 This repository showcases my approach to learning the fundamentals and nuances of API documentation. You'll find various resources, examples, and my personal insights as I explore best practices in documenting APIs.  
 
-I¡ll be coding in Python and following the API first approach suggested by the OpenAPI specificiation.
+I'll be coding in Python and following the API first approach suggested by the OpenAPI specificiation.
 
 I hope this helps you learn about API documentation!  
 
-## Goals  
+## Why?  
 
-This repository has two main goals. First, to present the complete process of API development from ideation, development, documentation, and release from the point of view of a technical writer. Second, to show and explain the Python API code to gain a better understanding of API development and the work of our fellow developers.  
+This repository aims to present the complete process of API development from the point of view of a technical writer. To do so I'll follow each stage of the Software Development Life cycle (SDLC) and provide examples of both the related document for each stage and the PYthon API code.
 
-## Process  
 
-To achieve the goal of learning about API documentation (and coding), I'll follow a progressive and iterative approach, which consists of the following steps:  
+## How?  
+
+To achieve the goal of learning about API documentation (and coding), I'll apply a progressive and iterative approach, which consists of the following steps:  
 
 1. Disclose and describe the steps of the Software Development Life Cycle (SDLC).  
 2. Create all required SDLC documentation.  
@@ -29,7 +30,7 @@ Open the following link to [check the documentation - TO DO]()
 
 !!! info "Use of Gen AI"  
 
-    Since my technical writing experience does not cover all the SDLC stages, I'll be using Gen AI tools to provide the narrative and resources to complete those stages.
+    Since my technical writing experience does not cover all the SDLC stages, I'll be using Gen AI tools to provide the narrative and draft samples for those stages.
 
 ## Contact  
 
