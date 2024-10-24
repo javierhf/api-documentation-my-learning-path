@@ -2,9 +2,9 @@
 
 ## What Is This All About?
 
-After starting my Python learning journey and being a senior technical writer, API documentation initially seemed like the next step. At first, I dreamt of it as a distant and mysterious land, far off. Now, it has become an exciting and achievable area of knowledge and practice.
+**After starting my Python learning journey and being a senior technical writer**, API documentation initially seemed like the next step. At first, I dreamt of it as a distant and mysterious land, far off. Now, it has become an exciting and achievable area of knowledge and practice.
 
-This repository showcases my approach to learning the fundamentals and nuances of API documentation. You'll find various resources, examples, and my personal insights as I explore best practices in documenting APIs.  
+**This repository showcases my approach to learning the fundamentals and nuances of API documentation**. You'll find various resources, examples, and my personal insights as I explore best practices in documenting APIs.  
 
 I'll be coding in Python and following the API first approach suggested by the OpenAPI specificiation.
 
@@ -12,12 +12,12 @@ I hope this helps you learn about API documentation!
 
 ## Why?  
 
-This repository aims to present the complete process of API development from the point of view of a technical writer. To do so I'll follow each stage of the Software Development Life cycle (SDLC) and provide examples of both the related document for each stage and the PYthon API code.
+**This repository aims to present the complete process of API development** from the point of view of a technical writer. To do so I'll follow each stage of the Software Development Life cycle (SDLC) and provide examples of both the related document for each stage and the PYthon API code.
 
 
 ## How?  
 
-To achieve the goal of learning about API documentation (and coding), I'll apply a progressive and iterative approach, which consists of the following steps:  
+**To achieve the goal of learning about API documentation (and coding)**, I'll apply a progressive and iterative approach, which consists of the following steps:  
 
 1. Disclose and describe the steps of the Software Development Life Cycle (SDLC).  
 2. Create all required SDLC documentation.  

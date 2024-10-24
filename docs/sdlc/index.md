@@ -21,7 +21,7 @@
 
 ### SDLC Details 
 
-The following table disclose each stage with more details:  
+**To learn more about the SDLC** check the following table disclosing each stage with more details:  
 
 | Stage | Description | Technical Writer | Documents |  
 |---------- | ------------ | ----------- |--------------- |  
@@ -38,7 +38,7 @@ The following table disclose each stage with more details:
 
 **The API First approach places the design and specification of an API at the forefront of the development process**. Instead of creating APIs as an afterthought to meet the needs of other parts of an application, the API is treated as a product from the beginning, guiding the entire software development lifecycle (SDLC). This ensures that the API is well-thought-out, meets the needs of its consumers, and evolves in a structured manner.   
 
-By creating a clear and detailed OpenAPI specification early on, developers and stakeholders can work from a shared understanding, reducing misunderstandings and improving collaboration.
+**By creating a clear and detailed OpenAPI specification early on**, developers and stakeholders can work from a shared understanding, reducing misunderstandings and improving collaboration.
 
 **The SDLC under the API First approach involves several key phases** as listed below:   
 
@@ -52,13 +52,13 @@ By creating a clear and detailed OpenAPI specification early on, developers and 
 
 ### A Closer Look
 
-The following table provides a summarized view of the "API First" development cycle:    
+**To learn more about the API First development approach**, check out the following table containing further details:    
 
 | Stage | Goal | Steps | Deliverables |  
 |------ | ----- | ----- | ------------ |   
 | **Planning and Ideation** | Identify business requirements and the purpose of the API. | <ol><li>Meet with stakeholders to define use cases and gather requirements.</li><li>Identify the target audience (internal teams, partners, or external developers).</li><li>Draft initial API requirements, focusing on core features.</li></ol> | <ul><li>High-level API requirements.</li><li>Use case definitions.</li><ol> |  
 | **API Design (OpenAPI Specification)** | Design the API using the OpenAPI specification before any development starts. |<ol><li>Create an OpenAPI spec (YAML or JSON) to define endpoints, methods (e.g., `GET`, `POST`), request parameters, and response formats.</li><li>Collaborate with stakeholders to validate the API contract.</li><li>Iterate and refine the design based on feedback from consumers.</li><ol> | <ol><li>OpenAPI spec (v1.0) describing all endpoints, data models, and security requirements.</li><li>Mock server or documentation preview (e.g., using Swagger UI) for consumer feedback.</li></ol> |  
-| **API Contract Finalization** | Establish the API contract as a binding agreement between the API provider and consumers. | <ol><li>Share the OpenAPI spec with consumers for early integration testing.</li><li>Freeze the API contract once feedback is incorporated.</li></ul> | <ul><li>Finalized API contract with stakeholder approval.</li><li>Mock server for developers to simulate interactions.</li><ul> |  
+| **API Contract Finalization** | Establish the API contract as a binding agreement between the API provider and consumers. | <ol><li>Share the OpenAPI spec with consumers for early integration testing.</li><li>Freeze the API contract once feedback is incorporated.</li></ol> | <ul><li>Finalized API contract with stakeholder approval.</li><li>Mock server for developers to simulate interactions.</li><ul> |  
 | **Development** |Implement the API backend following the agreed API contract. | <ol><li>Generate server-side code using OpenAPI tools (e.g., Swagger Codegen).</li><li>Implement business logic and integrate it with data sources.</li><li>Conduct unit tests to ensure individual components work as expected.</li><li>Use mock servers for early testing of API consumers.</li></ol> | <ul><li>Backend code implementation.</li><li>Unit test coverage.</li></ul> |  
 | **Testing and Quality Assurance** | Ensure the API meets functional and non-functional requirements. | <ol><li>Perform contract testing to verify the API adheres to the OpenAPI spec.</li><li>Conduct integration tests with real data and external services.</li><li>Perform security testing, including authentication and authorization.</li>Conduct performance testing (load, stress, etc.) to verify scalability.</li><ol> | <ul><li>Test results (unit, integration, performance, and security).</li><li>Fixes and optimizations based on test outcomes.</li></ul> |   
 | **Documentation and Developer Experience** | Provide comprehensive and user-friendly API documentation. |<ol><li>Auto-generate interactive documentation from the OpenAPI spec using tools like **Swagger UI** or **Redoc**.</li><li>Include examples, usage guides, and response formats.</li><li>Publish SDKs and client libraries if applicable.</li></ul> | <ul><li>Interactive API documentation.</li><li>API examples and usage guides.</li><li>Client SDKs (if applicable).</li></ul> |  
