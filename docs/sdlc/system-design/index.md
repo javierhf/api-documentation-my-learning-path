@@ -2,7 +2,7 @@
 
 ## Overview   
 
-Based on the requirements, architects and developers create high-level and detailed designs of the system. This includes the architecture, database design, and user interface mockups. Technical Writers document the design specifications and data models to ensure developers and stakeholders have clear guidance on implementation.  
+B**ased on the requirements, architects and developers create high-level and detailed designs of the system**. This includes the architecture, database design, and user interface mockups. Technical Writers document the design specifications and data models to ensure developers and stakeholders have clear guidance on implementation.  
 
 
 ## Associated Documents: Deployment Guide  
